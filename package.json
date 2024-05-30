@@ -1,0 +1,20 @@
+{
+  "name": "qa_api",
+  "version": "1.0.0",
+  "description": "Question & Answer App",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "submit": "git add . && git commit -m 'auto submit' && git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.9",
+    "nodemon": "^3.1.2",
+    "sequelize": "^6.37.3"
+  }
+}
